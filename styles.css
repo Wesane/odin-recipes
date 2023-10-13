@@ -1,0 +1,111 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    height:100%;
+    width:100%;
+}
+
+.mainpage{
+    padding:0;
+    margin:0;
+}
+
+body>div>h1#mainpagetitle{
+    display:flex;
+    background-color: rgb(89, 86, 255);
+    align-items: center;
+    text-align: center;
+    margin: auto;
+    padding:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 70px;
+    font-weight: bold;
+    min-height: 30rem;
+    min-width: 100vh;
+    justify-content: center;
+    color: white;
+
+}
+
+.centered-div{
+    display: flex;
+    text-align:center;
+    justify-content: center;
+    margin:0;
+    padding:0; 
+}
+
+.centered-div>ul{
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    font-size: 24px;
+    color: white;
+    list-style-type: none;
+    margin:0;
+    padding:0;
+    width:100vmax;
+    height:8.25vmax;
+    
+    
+    
+}
+.page-title{
+    background-color: rgb(240, 228, 4);
+    color: rgb(27, 27, 27);
+    padding:auto;
+    margin:auto;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.pagebody{
+    margin:0;
+    padding:0;
+}
+
+*:visited{
+    color: black;
+}
+
+.wrapperimage{
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-color: rgb(17, 118, 207);
+    padding-bottom: 0;
+    margin-bottom: 0;
+    height:400px;
+}
+.image{
+    width: auto;
+    height: 400px;
+    align-items:center;
+    justify-content: center
+}
+
+body>div.inform-text{
+    background-color: rgb(98, 255, 125);
+    margin:0;
+
+}
+
+body>div>h2{
+    margin:0;
+}
+
+ol{
+    margin:0;
+}
+
+html,body{
+    margin:0;
+    height:100%;
+    width:100%;
+}
+
+html.mainhtml{
+    height:fit-content;
+}
